@@ -13,6 +13,9 @@
 		046275C3258E934F00117E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046275C1258E934F00117E8B /* Main.storyboard */; };
 		046275C5258E935000117E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046275C4258E935000117E8B /* Assets.xcassets */; };
 		046275C8258E935000117E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046275C6258E935000117E8B /* LaunchScreen.storyboard */; };
+		046275D3258E9BA200117E8B /* New_RedBase_Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 046275D1258E9BA100117E8B /* New_RedBase_Color.png */; };
+		046275D4258E9BA200117E8B /* diceCollada.dae in Resources */ = {isa = PBXBuildFile; fileRef = 046275D2258E9BA200117E8B /* diceCollada.dae */; };
+		046275D7258E9DEF00117E8B /* diceCollada.scn in Resources */ = {isa = PBXBuildFile; fileRef = 046275D6258E9DEF00117E8B /* diceCollada.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		046275C4258E935000117E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046275C7258E935000117E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046275C9258E935000117E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046275D1258E9BA100117E8B /* New_RedBase_Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = New_RedBase_Color.png; sourceTree = "<group>"; };
+		046275D2258E9BA200117E8B /* diceCollada.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = diceCollada.dae; sourceTree = "<group>"; };
+		046275D6258E9DEF00117E8B /* diceCollada.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = diceCollada.scn; path = art.scnassets/diceCollada.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				046275BF258E934F00117E8B /* ViewController.swift */,
 				046275C1258E934F00117E8B /* Main.storyboard */,
 				046275BD258E934F00117E8B /* art.scnassets */,
+				046275D2258E9BA200117E8B /* diceCollada.dae */,
+				046275D6258E9DEF00117E8B /* diceCollada.scn */,
+				046275D1258E9BA100117E8B /* New_RedBase_Color.png */,
 				046275C4258E935000117E8B /* Assets.xcassets */,
 				046275C6258E935000117E8B /* LaunchScreen.storyboard */,
 				046275C9258E935000117E8B /* Info.plist */,
@@ -124,10 +133,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046275D3258E9BA200117E8B /* New_RedBase_Color.png in Resources */,
 				046275BE258E934F00117E8B /* art.scnassets in Resources */,
+				046275D4258E9BA200117E8B /* diceCollada.dae in Resources */,
 				046275C8258E935000117E8B /* LaunchScreen.storyboard in Resources */,
 				046275C5258E935000117E8B /* Assets.xcassets in Resources */,
 				046275C3258E934F00117E8B /* Main.storyboard in Resources */,
+				046275D7258E9DEF00117E8B /* diceCollada.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
